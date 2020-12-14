@@ -1,0 +1,278 @@
+/*variables*/
+$fuente1: 'Quicksand';
+$fuente2: 'Lora';
+$color1: #d0c5bf;
+$color2: #975032;
+$color3: #fff;
+$color4: #B3B1AF;
+$color5: #f3ece6;
+/*index*/
+.navegador {
+    margin: 0 auto; 
+    height: 55px;
+    text-align: center;
+    word-spacing: 80px;
+    background-color: $color1;
+    justify-self: center;
+    padding: 15px;
+    font-family: $fuente1;
+    letter-spacing: 3px;
+     nav a {
+        color: #ffff;
+        span {
+            margin: 10px;
+            }
+       }
+ }
+ nav a:hover {
+     color: $color2;
+     text-decoration: none;
+ }
+ .logo {
+     text-align: center;
+ }
+ .emporio {
+     display: none;
+ }
+ .libro {
+     text-align: center;
+     font-size: 40px;
+     margin: 10px auto;
+     padding: 10px;
+     font-family: $fuente1;
+     letter-spacing: 10px;
+     border-bottom: 1px solid $color4;
+       a {
+           color: $color2;
+       }
+ }
+ .libro :hover{
+    color: $color1;
+    text-decoration: none;
+ }
+ .portada {
+     width: 155px;
+     height: 236px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 15px;
+     display: block;
+     padding: 10px;
+     border: 1px solid $color5;
+     background-color: $color5;
+ }
+ .tituloLibro {
+     text-align: center;
+     font-size: 15px;
+     font-family: $fuente2;
+     color: $color2;
+     margin-top: 15px;
+ }
+ .autor {
+     text-align: center;
+     font-size: 15px;
+     font-family: $fuente1;
+     color: $color4;
+ }
+ footer {
+     background-color: $color1;
+     color: $color3;
+     text-align: center;
+     margin: 20px auto;
+     padding: 20px;
+     font-family: $fuente1;
+ }
+ .carousel {
+    max-width: 980px;
+    display: block;
+    margin: auto;
+    }
+/*novedades*/
+.novedadesMes {
+     text-align: center;
+     font-size: 40px;
+     margin: 10px auto;
+     padding: 10px;
+     font-family: $fuente1;
+     letter-spacing: 10px;
+     color: $color2;
+}
+.imagen {
+     width: 155px;
+     height: 236px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 15px;
+     display: block;
+     padding: 10px;
+     border: 1px solid $color5;
+     background-color: $color5;
+}
+.imagen2 {
+    width: 155px;
+    height: 236px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+    padding: 10px;
+    border: 1px solid $color5;
+    background-color: $color5;
+}
+.novedades1 {
+     text-align: left;
+     font-size: 20px;
+     font-family: $fuente2;
+     color: $color2;
+     margin-top: 25px;
+     border-bottom: 1px solid $color4;
+}
+.novedades2 {
+     text-align: left;
+     font-size: 15px;
+     font-family: $fuente1;
+     color: $color4;
+}
+.novedades3 {
+    text-align: right;
+    font-size: 20px;
+    font-family: $fuente2;
+    color: $color2;
+    margin-top: 25px;
+    border-bottom: 1px solid $color4;
+}
+.novedades4 {
+     text-align: right;
+     font-size: 15px;
+     font-family: $fuente1;
+     color: $color4;
+}
+.novedades5  {
+    font-family: $fuente1;
+    margin-top: 15px;
+}
+.novedades6 {
+    font-family: $fuente1;
+    margin-left: 25px;
+    text-align: right;
+    margin-top: 15px;
+}
+/*recomendados*/
+.recomendados {
+     text-align: center;
+     font-size: 40px;
+     margin: 10px auto;
+     padding: 10px;
+     font-family: $fuente1;
+     letter-spacing: 10px;
+     color: $color2;
+}
+.harrypotter {
+     width: 155px;
+     height: 236px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 15px;
+     display: block;
+     padding: 10px;
+     border: 1px solid $color5;
+     background-color: $color5;
+}
+.potterTexto {
+     text-align: center;
+     font-size: 15px;
+     font-family: $fuente2;
+     color: $color2;
+     margin-top: 25px;
+}
+.rowling {
+     text-align: center;
+     font-size: 15px;
+     font-family: $fuente1;
+     color: $color4;
+}
+/*contacto*/
+.contacto {
+    text-align: center;
+    font-family: $fuente2;
+    font-size: 40px;
+    font-family: $fuente1;
+    letter-spacing: 10px;
+    color: $color2;
+    margin-top: 30px;
+}
+/*media queries*/
+@media screen and (max-width: 570px) {
+    .navegador {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+         nav a {
+            display: block;
+            float: none;
+            border-bottom: 1px solid rgba(255,255,255, .3);
+            width: 100%;
+         }
+    }
+    .logo {
+        display: none;
+    }
+    .libro {
+        font-size: 20px;
+    }
+    .novedadesMes {
+        font-size: 20px;
+    }
+    .imagen2 {
+        position: relative;
+        bottom: 230px;
+    }
+    .novedades1 {
+        text-align: center;
+    }
+    .novedades2 {
+        text-align: center;
+    }
+    .novedades3 {
+        position: relative;
+        top: 260px;
+        text-align: center;
+        margin-top: 0 auto;
+    }
+    .novedades4 {
+        position: relative;
+        top: 260px;
+        text-align: center;
+    }
+    .novedades5 {
+        text-align: center;
+    }
+    .novedades6 {
+        position: relative;
+        top: 260px;
+        text-align: center;
+    }
+    .recomendados {
+        font-size: 20px;
+    }
+    .contacto {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 860px) {
+    /*index*/
+    .navegador {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+         nav a {
+            display: block;
+            float: none;
+            border-bottom: 1px solid rgba(255,255,255, .3);
+            width: 100%;
+         }
+     }
+    .logo {
+        display: none;
+    }
+}

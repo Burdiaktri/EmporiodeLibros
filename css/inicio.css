@@ -1,0 +1,250 @@
+/*variables*/
+/*index*/
+.navegador {
+  margin: 0 auto;
+  height: 55px;
+  text-align: center;
+  word-spacing: 80px;
+  background-color: #d0c5bf;
+  justify-self: center;
+  padding: 15px;
+  font-family: "Quicksand";
+  letter-spacing: 3px; }
+  .navegador nav a {
+    color: #ffff; }
+    .navegador nav a span {
+      margin: 10px; }
+
+nav a:hover {
+  color: #975032;
+  text-decoration: none; }
+
+.logo {
+  text-align: center; }
+
+.emporio {
+  display: none; }
+
+.libro {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Quicksand";
+  letter-spacing: 10px;
+  border-bottom: 1px solid #B3B1AF; }
+  .libro a {
+    color: #975032; }
+
+.libro :hover {
+  color: #d0c5bf;
+  text-decoration: none; }
+
+.portada {
+  width: 155px;
+  height: 236px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #f3ece6;
+  background-color: #f3ece6; }
+
+.tituloLibro {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lora";
+  color: #975032;
+  margin-top: 15px; }
+
+.autor {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Quicksand";
+  color: #B3B1AF; }
+
+footer {
+  background-color: #d0c5bf;
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Quicksand"; }
+
+.carousel {
+  max-width: 980px;
+  display: block;
+  margin: auto; }
+
+/*novedades*/
+.novedadesMes {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Quicksand";
+  letter-spacing: 10px;
+  color: #975032; }
+
+.imagen {
+  width: 155px;
+  height: 236px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #f3ece6;
+  background-color: #f3ece6; }
+
+.imagen2 {
+  width: 155px;
+  height: 236px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #f3ece6;
+  background-color: #f3ece6; }
+
+.novedades1 {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Lora";
+  color: #975032;
+  margin-top: 25px;
+  border-bottom: 1px solid #B3B1AF; }
+
+.novedades2 {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Quicksand";
+  color: #B3B1AF; }
+
+.novedades3 {
+  text-align: right;
+  font-size: 20px;
+  font-family: "Lora";
+  color: #975032;
+  margin-top: 25px;
+  border-bottom: 1px solid #B3B1AF; }
+
+.novedades4 {
+  text-align: right;
+  font-size: 15px;
+  font-family: "Quicksand";
+  color: #B3B1AF; }
+
+.novedades5 {
+  font-family: "Quicksand";
+  margin-top: 15px; }
+
+.novedades6 {
+  font-family: "Quicksand";
+  margin-left: 25px;
+  text-align: right;
+  margin-top: 15px; }
+
+/*recomendados*/
+.recomendados {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Quicksand";
+  letter-spacing: 10px;
+  color: #975032; }
+
+.harrypotter {
+  width: 155px;
+  height: 236px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #f3ece6;
+  background-color: #f3ece6; }
+
+.potterTexto {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lora";
+  color: #975032;
+  margin-top: 25px; }
+
+.rowling {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Quicksand";
+  color: #B3B1AF; }
+
+/*contacto*/
+.contacto {
+  text-align: center;
+  font-family: "Lora";
+  font-size: 40px;
+  font-family: "Quicksand";
+  letter-spacing: 10px;
+  color: #975032;
+  margin-top: 30px; }
+
+/*media queries*/
+@media screen and (max-width: 570px) {
+  .navegador {
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+    .navegador nav a {
+      display: block;
+      float: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      width: 100%; }
+  .logo {
+    display: none; }
+  .libro {
+    font-size: 20px; }
+  .novedadesMes {
+    font-size: 20px; }
+  .imagen2 {
+    position: relative;
+    bottom: 230px; }
+  .novedades1 {
+    text-align: center; }
+  .novedades2 {
+    text-align: center; }
+  .novedades3 {
+    position: relative;
+    top: 260px;
+    text-align: center;
+    margin-top: 0 auto; }
+  .novedades4 {
+    position: relative;
+    top: 260px;
+    text-align: center; }
+  .novedades5 {
+    text-align: center; }
+  .novedades6 {
+    position: relative;
+    top: 260px;
+    text-align: center; }
+  .recomendados {
+    font-size: 20px; }
+  .contacto {
+    font-size: 20px; } }
+
+@media screen and (max-width: 860px) {
+  /*index*/
+  .navegador {
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+    .navegador nav a {
+      display: block;
+      float: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      width: 100%; }
+  .logo {
+    display: none; } }
